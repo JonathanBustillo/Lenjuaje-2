@@ -81,6 +81,7 @@ int main(int argc, char const *argv[])
 
             if (libroEnminuscula.find(buscar) != string::npos || autorEnminuscula.find(buscar) != string::npos) {
                 cout << "Libro encontrado: " << libro << endl;
+                cout << "Autor del libro: " << libros [i][2] << endl;
 
                 cout << "Tambien te sugerimos estos libros: " << endl;
 
