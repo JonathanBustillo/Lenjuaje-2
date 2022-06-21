@@ -35,15 +35,17 @@ int main(int argc, char const *argv[])
              {
              	 
                  system("cls]");
-                 cout <<" ESTAS EN EL JUEGO STARSHIP" << endl;
-                 system("pause");
+                  // cout <<" ESTAS EN EL JUEGO STARSHIP" << endl;
+                  // system("pause");
+                 startShip();
                  break;
              }
             case 2:  
              {
                 system("cls]");
-                cout <<" ESTAS EN EL JUEO SNAKE" << endl;
-                system("pause");
+                 // cout <<" ESTAS EN EL JUEO SNAKE" << endl;
+                 // system("pause");
+                snake();
                 break; 
              }
         default:
