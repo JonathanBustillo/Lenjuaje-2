@@ -37,7 +37,7 @@ int main(int argc, char const *argv[])
                  system("cls]");
                   // cout <<" ESTAS EN EL JUEGO STARSHIP" << endl;
                   // system("pause");
-                 startShip();
+                 starShip();
                  break;
              }
             case 2:  
